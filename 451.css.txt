@@ -1,0 +1,22 @@
+ul {
+margin: 0;
+padding: 0;
+text-decoration: none;
+}
+
+.spis { 
+width: 200px;
+margin:20px;
+}
+.pop {
+background
+color: #fff;
+padding: 10px;
+}
+.menu {
+background: #3d3d3d;
+color: #fff;
+}
+.li { 
+background: red;
+}

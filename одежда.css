@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+body { 
+background:url("geoVanni.png") no-repeat center center fixed;
+background-size:cover;
+    
+}
+a{ 
+color: red;
+font-size: 34px;}
+.od { 
+}
+.aaa {
+    color:white;
+    font-size: 34px;
+
+}
+.aab {
+    color: #E13C94;
+    font-size: 34px;
+}
+.aab2 {
+    color:#931DA8;
+    font-size: 34px;
+}

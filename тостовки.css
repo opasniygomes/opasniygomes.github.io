@@ -1,0 +1,21 @@
+body { 
+background:url("geoVanni.png") no-repeat center center fixed;
+background-size:cover;
+    
+}
+.pio {
+    color: red;
+    font-size: 34px;
+}
+.poi {
+    color: white;
+    font-size: 34px;
+}
+.ipo {
+    color:#931DA8;
+    font-size: 34px;
+}
+.iop{
+    color:#E13C94;
+    font-size: 34px;
+}

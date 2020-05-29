@@ -1,0 +1,70 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="451.css">
+</head>
+<body>
+    <header>
+<nav class="spis">
+    <ul id="navbar">
+    <li><a href="#">Главная</a></li>
+        <li><a href="#">Продукция</a>
+        <ul class="rt">
+            <li><a href="одежда.html">Футболки</a>
+            <ul id="lk">
+                </li>
+                </ul>
+        <li><a href="толстовки.html">Tолстовки</a></li>
+        <li><a href="штаны.html">Штаны</a></li>
+        
+            </ul>
+        </li>
+    <li><a href="доставка.html">Доставка</a></li>
+        <li><a href="#" onclick="alert('Иван-89048972861')">Контакты</a></li></ul></nav></header>
+ <div id="carousel" class="carousel">
+     <div class="gallery">
+         <ul class="images"> 
+             <li><img src="1.jpg"></li>
+             <li><img src="2.jpg"></li>
+             <li><img src="3.jpg"></li>
+             <li><img src="4.jpg"></li>
+             <li><img src="6.jpg"></li>
+             <li><img src="7.jpg"></li>
+             <li><img src="8.jpg"></li>
+             <li><img src="9.jpg"></li>
+             <li><img src="10.jpg"></li>
+             <li><img src="5.jpg"></li>
+         </ul>
+     </div>
+     <button class="arrow next">⇨</button>
+     <button class="arrow next2">⇦</button>
+    </div>
+    <script>
+    let width=130;
+    let count=3;
+        let list = carousel.querySelector('ul');
+    let listElems = carousel.querySelectorAll('li');
+        let position=0;
+        
+carousel.querySelector('.next').onclick = function() {
+position-= width * count;
+position= Math.max(position, -width * (listElems.length - count));
+list.style.marginLeft = position + 'px';
+};
+  
+        carousel.querySelector('.next2').onclick = function() {
+      position += width * count;
+      position = Math.min(position, 0)
+      list.style.marginLeft = position + 'px';
+    };
+
+  </script>
+
+
+
+    
+   
+
+ 
+
+
+	
